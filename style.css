@@ -1,0 +1,15 @@
+#gameContainer {
+        display: inline-grid;
+        grid-template-columns: repeat(16, 15px);
+
+}
+
+#div2 {
+    border: black solid 1px;
+    height: 15px;
+    width: 15px;
+}
+
+#div2: {
+    background-color: black;
+}
