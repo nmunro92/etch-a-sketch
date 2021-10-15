@@ -4,12 +4,12 @@
 
 }
 
-#div2 {
+.div2 {
     border: black solid 1px;
     height: 15px;
     width: 15px;
 }
+ .permhover {
+     background-color: black;
+ }
 
-#div2: {
-    background-color: black;
-}
