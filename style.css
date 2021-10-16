@@ -1,15 +1,16 @@
+
+
+
 #gameContainer {
-        display: inline-grid;
-        grid-template-columns: repeat(16, 15px);
+        height: 400px;
+        width: 600px;
+        border: red solid 4px;
+        margin: 0;
 
 }
 
 .div2 {
     border: black solid 1px;
-    height: 15px;
-    width: 15px;
+    margin: 0;
 }
- .permhover {
-     background-color: black;
- }
 
