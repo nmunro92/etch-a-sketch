@@ -1,16 +1,86 @@
+body {
+    background-color: rgb(120, 200, 236);
+}
 
+#controls {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    
+
+}
+
+#centreContainer {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+#heading {
+    border-left: red solid 50px;
+    border-right: red solid 50px;
+    border-bottom: red solid 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+    
+}
+
+h1 {
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    background-color: red;
+    
+}
 
 
 #gameContainer {
-        height: 400px;
-        width: 600px;
-        border: red solid 4px;
-        margin: 0;
+    height: 400px;
+    width: 600px;
+    background-color:  rgb(231, 228, 228);
+    margin: 0;
+      
 
 }
 
 .div2 {
-    border: black solid 1px;
+    border: rgb(155, 155, 155) solid 0.25px;
     margin: 0;
 }
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    width: 10rem;
+    /* margin-left: 4rem;
+    margin-top: 3rem; */
+    padding: 5rem;
+    text-align: center;
+
+}
+
+form > button {
+    margin: 10px;
+    padding: 10px;
+  
+}
+
+form > input {
+    height: 20px;
+    width: 110px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+}  
+
+
 

@@ -7,16 +7,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <div id="controls">
-          <button onclick= "clearGrid()" id="clear">Clear grid</button>
-          <form>
-          <input type="number" min="0" max="100" placeholder="How many squares?" id="squares"></input>
-          <input type="button" onclick="getSquares()" value="Submit">
-          </form>
-      </div>
+        <div id="controls">
+            
+            <form id="form">
+            <h2>Controls</h2>
+            <button type="button" class="pushed" onclick="smallGrid()" id="small">Small</button>
+            <button type="button" class="pushed"onclick="onLoad()" id="medium">Medium</button>
+            <button type="button" class="pushed"onclick="largeGrid()" id="large">Large</button>
+            <button type="button" class="pushed"id="black" onclick="blackSquares()">Black</button>
+            <button type="button" class="pushed"id="rainbows" onclick="rainbow()">Rainbow</button>
+            <button type="button" class="pushed"onclick= "clearGrid()" id="clear">Clear</button>
+            </form>
+        </div>
+    </body>
+
+        <div id="centreContainer">
+        <div id="heading">
+            <h1>etch-a-sketch</h1>
+
         <div id="gameContainer">
 
         </div>
+        </div>
+        </div>
+     
+       
         
         <script src="javaScript.js" async defer></script>
     </body>
