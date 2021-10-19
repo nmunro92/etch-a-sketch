@@ -61,14 +61,14 @@ h1 {
     width: 10rem;
     /* margin-left: 4rem;
     margin-top: 3rem; */
-    padding: 5rem;
+    padding: 3rem;
     text-align: center;
 
 }
 
 form > button {
-    margin: 10px;
-    padding: 10px;
+    margin: 7px;
+    padding: 7px;
   
 }
 
@@ -82,5 +82,8 @@ form > input {
     justify-content: center;
 }  
 
-
+.pushed {
+    background-color: black;
+    color: white;
+}
 

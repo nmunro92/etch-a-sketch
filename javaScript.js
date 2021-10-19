@@ -1,4 +1,7 @@
 const gameContainer = document.getElementById("gameContainer");
+const large = document.getElementById("large");
+const medium = document.getElementById("medium");
+const small = document.getElementById("small");
 
 function onLoad () {
     clearGrid ();
@@ -14,6 +17,11 @@ function onLoad () {
     //make sure it's a grid
     gameContainer.style.display = "inline-grid";
     gameContainer.style.gridTemplateColumns ='repeat(20, auto)';
+
+    medium.classList.add("pushed");
+    small.classList.remove("pushed");
+    large.classList.remove("pushed");
+
 
     //add listens for when they're hovered over
     document.querySelectorAll(".div2").forEach(link => link.addEventListener('mouseover', (event) => {
@@ -41,6 +49,10 @@ function smallGrid (){
     gameContainer.style.display = "inline-grid";
     gameContainer.style.gridTemplateColumns ="repeat(10, auto)";
 
+    small.classList.add("pushed");
+    medium.classList.remove("pushed");
+    large.classList.remove("pushed");
+
     //add listens for when they're hovered over
     document.querySelectorAll(".div2").forEach(link => link.addEventListener('mouseover', (event) => {
         event.target.style.backgroundColor = "black";
@@ -63,6 +75,10 @@ function largeGrid (){
     //make sure it's a grid
     gameContainer.style.display = "inline-grid";
     gameContainer.style.gridTemplateColumns ="repeat(30, auto)";
+
+    large.classList.add("pushed");
+    small.classList.remove("pushed");
+    medium.classList.remove("pushed");
 
     //add listens for when they're hovered over
     document.querySelectorAll(".div2").forEach(link => link.addEventListener('mouseover', (event) => {
